@@ -43,7 +43,7 @@ The node implements two key feature fusion mechanisms:
 ## Installation Method
 
 1. Download this plugin
-2. Copy the `unit_prompt_weight` folder to the `custom_nodes` directory of ComfyUI
+2. Copy the `ComfyUI-Apt_UnitPromptWeight` folder to the `custom_nodes` directory of ComfyUI
 3. Restart ComfyUI
 
 ### Prompt Syntax
@@ -147,7 +147,7 @@ Unit Prompt Weight节点采用了先进的**语义权重动态分配算法**（S
 ## 安装方法
 
 1. 下载本插件
-2. 将`unit_prompt_weight`文件夹复制到ComfyUI的`custom_nodes`目录下
+2. 将`ComfyUI-Apt_UnitPromptWeight`文件夹复制到ComfyUI的`custom_nodes`目录下
 3. 重启ComfyUI
 
 ### 提示词语法
