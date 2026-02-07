@@ -12,5 +12,5 @@ NODE_CLASS_MAPPINGS = {
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "Unit_PromptWeight": "Unit Prompt Weight",
+    "Unit_PromptWeight": "Apt_UnitPromptWeight",
 }
