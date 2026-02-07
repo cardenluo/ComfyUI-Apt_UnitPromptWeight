@@ -9,6 +9,10 @@
 
 A powerful ComfyUI node for precise control of prompt weights, supporting multiple processing modes and visual weight allocation.
 
+
+<img width="2838" height="1843" alt="image" src="https://github.com/user-attachments/assets/c4658158-b145-4e68-9fb9-9661d3bd9a86" />
+
+
 ## Core Working Principle
 
 ### Weight Parsing Algorithm
