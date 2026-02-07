@@ -4,7 +4,7 @@ import { ComfyWidgets } from "../../scripts/widgets.js"
 app.registerExtension({
     name: "godmt.ListUtils",
     async beforeRegisterNodeDef(nodeType, nodeData, app) {
-        if (nodeData.name === "Unit_PromptWeight") {
+        if (nodeData.name === "Apt_UnitPromptWeight") {
             const onNodeCreated = nodeType.prototype.onNodeCreated
             nodeType.prototype.onNodeCreated = function () {
                 onNodeCreated ? onNodeCreated.apply(this, []) : undefined
