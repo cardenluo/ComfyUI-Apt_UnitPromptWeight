@@ -389,8 +389,8 @@ class Unit_PromptWeight:
             }
         }
 
-    RETURN_TYPES = ("RUN_CONTEXT", "CONDITIONING", "CONDITIONING", )
-    RETURN_NAMES = ("context",  "positive", "negative", )
+    RETURN_TYPES = ( "CONDITIONING", "CONDITIONING", )
+    RETURN_NAMES = ("positive", "negative", )
     CATEGORY = "Apt_UnitPromptWeight"
     FUNCTION = "sum_text_encode"
     OUTPUT_NODE = True
