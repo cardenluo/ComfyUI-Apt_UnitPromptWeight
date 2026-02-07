@@ -1,7 +1,7 @@
 import torch
 import re
 import torch.nn.functional as F
-from comfy.sd import CLIPTextEncode
+from nodes import CLIPTextEncode
 
 class pre_Unit_PromptWeight:
     @classmethod
