@@ -1,10 +1,6 @@
-<div style="text-align: center; margin-bottom: 20px;">
-<button onclick="showEnglish()" style="padding: 8px 16px; margin-right: 10px; background-color: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer;">English</button>
-<button onclick="showChinese()" style="padding: 8px 16px; background-color: #2196F3; color: white; border: none; border-radius: 4px; cursor: pointer;">中文</button>
-</div>
+[中文](#中文) | [English](#english)
 
-<div id="english-content">
-
+<a id="english"></a>
 # Unit Prompt Weight
 
 A powerful ComfyUI node for precise control of prompt weights, supporting multiple processing modes and visual weight allocation.
@@ -93,23 +89,11 @@ Unit Prompt Weight
 - Support for multiple processing modes
 - Implementation of weight visualization functionality
 
-</div>
+---
+<details id="chinese-details">
+<summary><strong>中文</strong></summary>
 
-<script>
-function showEnglish() {
-    document.getElementById('english-content').style.display = 'block';
-    document.getElementById('chinese-content').style.display = 'none';
-}
-
-function showChinese() {
-    document.getElementById('english-content').style.display = 'none';
-    document.getElementById('chinese-content').style.display = 'block';
-}
-
-// Default to English
-showEnglish();
-</script>
-
+<a id="中文"></a>
 # Unit Prompt Weight
 
 一个功能强大的ComfyUI节点，用于精确控制提示词权重，支持多种处理模式和可视化权重分配。
@@ -169,7 +153,6 @@ Unit Prompt Weight节点采用了先进的**语义权重动态分配算法**（S
 
 
 
-
 ## 示例工作流
 
 ### 风格增强示例
@@ -200,3 +183,18 @@ Unit Prompt Weight
 - 初始版本发布
 - 支持多种处理模式
 - 实现权重可视化功能
+
+
+</details>
+
+<script>
+// Auto expand details when hash is #中文
+window.addEventListener('load', function() {
+    if (window.location.hash === '#中文') {
+        const details = document.getElementById('chinese-details');
+        if (details) {
+            details.open = true;
+        }
+    }
+});
+</script>
