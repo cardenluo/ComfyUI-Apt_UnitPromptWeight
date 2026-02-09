@@ -187,14 +187,4 @@ Unit Prompt Weight
 
 </details>
 
-<script>
-// Auto expand details when hash is #中文
-window.addEventListener('load', function() {
-    if (window.location.hash === '#中文') {
-        const details = document.getElementById('chinese-details');
-        if (details) {
-            details.open = true;
-        }
-    }
-});
-</script>
+
